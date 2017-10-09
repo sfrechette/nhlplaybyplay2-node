@@ -1,0 +1,25 @@
+{
+  "name": "nhlplaybyplay2-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfrechette/nhlplaybyplay2-node.git"
+  },
+  "author": "Stéphane Fréchette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfrechette/nhlplaybyplay2-node/issues"
+  },
+  "homepage": "https://github.com/sfrechette/nhlplaybyplay2-node#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "colors": "^1.1.2",
+    "jsonfile": "^4.0.0",
+    "request": "^2.83.0"
+  }
+}
