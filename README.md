@@ -1,3 +1,5 @@
+![alt tag](https://stephanefrechette.com/wp-content/uploads/2017/10/iStock-186022164_small.jpg)
+
 # nhlplaybyplay2-node
 Fetch and Convert NHL Play by Play game data v2
 
