@@ -7,7 +7,7 @@ Fetch and Convert NHL Play by Play game data v2
 Application built using Node.js that provides the means for accessing, fetching NHL Schedule and Play by Play game data in JSON format and
 converting data outputs to CSV.
 
-**Hope your familiar with this…**
+**Get yourself familiar with the following…**
 
 2017-2018 NHL Season Schedule -> 
 http://live.nhl.com/GameData/SeasonSchedule-20172018.json  
