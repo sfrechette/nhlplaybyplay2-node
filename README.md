@@ -8,15 +8,15 @@ converting data outputs to CSV.
 **Hope your familiar with this…**
 
 2017-2018 NHL Season Schedule -> 
-http://live.nhl.com/GameData/SeasonSchedule-20172018.json
+http://live.nhl.com/GameData/SeasonSchedule-20172018.json  
 This URL (API) outputs the complete NHL regular season schedule in JSON format
 
 Play by Play for game 2017020001 ->
-<strike>http://live.nhl.com/GameData/20172018/2017020001/PlayByPlay.json</strike>
+<strike>http://live.nhl.com/GameData/20172018/2017020001/PlayByPlay.json</strike>  
 The following URL (API) used to provide the detailed play-by-play for a specific game... It doesn't work anymore! 
 
 Now will be using this one ->
-http://statsapi.web.nhl.com/api/v1/game/2017020001/feed/live
+http://statsapi.web.nhl.com/api/v1/game/2017020001/feed/live  
 A richer output with more detailed events and information.  
 
 
