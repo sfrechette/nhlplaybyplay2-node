@@ -14,7 +14,7 @@ if (process.argv[3] != null) {
     var exec = require('child_process').exec;
     var cmd = `jq -r --arg season ${season} --arg gameid ${game} '.gameData.teams.away as $a | .gameData.teams.home as $h | .liveData.plays.allPlays[]? | . as $p | 
                 [$gameid | tonumber] + [$a.id, $a.triCode, $a.name] + [$h.id, $h.triCode, $h.name] + [$p.result.event, $p.result.description] + 
-                [$p.about.eventIdx, $p.about.period, $p.about.periodTime, ($p.about.periodType | ascii_downcase), $p.about.periodTimeRemaining, $p.about.goals.away, $p.about.goals.home] + 
+                [$p.about.eventIdx, $p.about.period, ($p.about.periodType | ascii_downcase), $p.about.periodTime, $p.about.periodTimeRemaining, $p.about.goals.away, $p.about.goals.home] + 
                 [$p.coordinates.x, $p.coordinates.y] | @csv' ./data/${season}/${game}.json > ./data/${season}/${game}_events.csv`;
     exec(cmd, function (error, stdout, stderr) {  
         if (error) {
