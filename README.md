@@ -50,6 +50,7 @@ node fetch.js 20172018 2017020001
 Sample JSON, 2017020001.json  
 https://github.com/sfrechette/nhlplaybyplay2-node/blob/master/sample/2017020001.json  
 
+---  
 
 **Convert Play by Play - "Events" to CSV**   
 node convert-events.js *season* *[game]*
@@ -68,8 +69,9 @@ https://github.com/sfrechette/nhlplaybyplay2-node/blob/master/sample/2017020001_
 
 Data dictionary: (game_id, away_team_id, away_team_code, away_team_name, home_team_id, home_team_code,  
 home_team_name, event_type, event_description, event_id, period, period_type, period_time,  
-period_time_remaining, away_goals, home_goals, coord_x, coord_y)     
+period_time_remaining, away_goals, home_goals, coord_x, coord_y)  
 
+---  
 
 **Convert Play by Play - "Event Players" to CSV**   
 node convert-eventplayers.js *season* *[game]*
@@ -88,6 +90,7 @@ https://github.com/sfrechette/nhlplaybyplay2-node/blob/master/sample/2017020001_
 
 Data dictionary: (game_id, event_id, event_type, player_id, player_name, player_type)  
 
+---  
 
 **Convert Play by Play - "Players" to CSV**   
 node convert-players.js *season* *[game]*
