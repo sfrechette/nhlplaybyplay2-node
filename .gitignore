@@ -1,5 +1,4 @@
 .DS_Store
 .vscode/
-.data/
-.node_modules/
-package-lock.json
+data/
+node_modules/

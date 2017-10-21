@@ -23,8 +23,8 @@ A richer output with more detailed events and information.
 
 
 ## Installation
-*** If you don't already have jq installed you will need to download and install it either before or after doing the npm install ***  
-https://stedolan.github.io/jq/download/  
+**If you don't already have jq installed you will need to download and install it either before or after doing the npm install**  
+Download jq here -> https://stedolan.github.io/jq/download/  
 
 Install the dependencies with the following command:
 ```
