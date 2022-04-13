@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/sfrechette/nhlplaybyplay2-node#readme",
   "dependencies": {
-    "async": "^3.0.1",
+    "async": "^3.2.2",
     "colors": "^1.3.3",
     "jsonfile": "^5.0.0",
     "request": "^2.88.0"
